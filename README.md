@@ -1,11 +1,24 @@
 # seat-allocation-portal
 Automatically allocating seats in an examination hall based on the floor plan.
 
+## Instructions
+### Initial Setup
+```bash
+cp api
+npm install
+cd ../dashboard
+npm install
+```
+
 ### To run the server
-`cd api`
-`npm run dev`
+```bash
+cd api
+npm run dev
+```
 
 ### To run the frontend
-`cd dashboard`
-`npm run serve`
+```bash
+cd dashboard
+npm run serve
+```
 
